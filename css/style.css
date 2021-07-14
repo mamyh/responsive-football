@@ -160,6 +160,10 @@ span{
 .banner-image img{
     width:55.6rem;
     height: 43.8rem;
+    transition:transform .5s linear;
+}
+.banner-image:hover img{
+    transform:scale(1.1);
 }
 .banner-btn{
     display: inline-block;
@@ -196,10 +200,14 @@ grid-row-gap:2.7rem
 }
 .player-image{
     width: 30rem;
-
+    overflow: hidden;
 }
 .player-image img{
      width: 100%;
+     transition:transform .5s linear;
+}
+.player-image:hover img{
+    transform:scale(1.15);
 }
 /*---------------------------------------------
        players end 
@@ -236,9 +244,14 @@ grid-row-gap:2.7rem
 }
 .news-photo{
    width: 100%;
+   overflow:hidden;
 }
 .news-photo img{
     width: 100%;
+    transition:transform .5s linear;
+}
+.news-photo:hover img{
+    transform:scale(1.15);
 }
 
    /* ---------------------------------------------
