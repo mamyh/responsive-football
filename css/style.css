@@ -174,7 +174,9 @@ span{
 /*-----------------------------------------------
       main start
 ---------------------------------------------- */
-
+/*---------------------------------------------
+      players start 
+      --------------------------------------- */
 .players{
     width:105rem;
     margin:7rem auto;
@@ -194,6 +196,31 @@ grid-row-gap:2.7rem
 .player-image img{
      width: 100%;
 }
+/*---------------------------------------------
+       players end 
+---------------------------------------------- */
+.partner-section{
+    width: 105rem;
+    margin: 7rem auto;
+}
+.partners__title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right,rgba(9, 230, 28, 0.89),tomato);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color:transparent;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+.partners{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 7rem;
+}
+/*-----------------------------------------=--
+     Partner section start  
+--------------------------------------------------*/
 /*--------------------------------------------
  main end 
  -------------------------------------------- */
