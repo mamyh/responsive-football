@@ -1,0 +1,92 @@
+/* poppins font family  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* -----------------------------------------
+       common style
+--------------------------------------------  */
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color:#F3F3F3;
+}
+ .btn:link,
+ .btn:visited{
+    color:#fff;
+    padding:1rem 2.4rem;
+    background-color: #E02C6D;
+ }
+/*--------------------------------------------- 
+    header section
+    --------------------------------------------  */
+
+.header{
+    width: 100vw;
+    height: 80vh;
+    background-color: #2E279A;
+    padding:4.2rem 14rem 8.6rem;
+}
+
+/* --------------------------------------
+nav start  
+----------------------------------------*/
+.nav{
+  display: flex;
+  justify-content: space-between;
+  color:#fff;
+  text-transform:capitalize;
+  font-size: 1.6rem;
+}
+.list{
+    width:58.7rem;
+    display: flex;
+    justify-content:space-between;
+}
+.item{
+
+}
+.login{
+
+}
+/*-----------------------------------------------
+       banner start
+---------------------------------------------------  */
+.banner{
+    display: flex;
+    margin-top:5rem;
+}
+.banner-text{
+   width: 48.5rem;
+   margin-top: 12.1rem;
+}
+.banner-head{
+   font-size: 6.4rem;
+   line-height: 8rem;
+   color:#fff;
+   margin-bottom: 2.7rem;
+}
+.banner-image{
+  margin-left:auto;
+}
+.banner-image img{
+    width:55.6rem;
+    height: 43.8rem;
+}
+/*-----------------------------------------------
+         header end 
+------------------------------------------------- */
